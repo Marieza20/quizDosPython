@@ -3,7 +3,7 @@ from Juego import Juego
 def mostrar_menu():
     print("Menú Principal")
     print("1. Iniciar Encriptar")
-    print("2. Iniciar Encriptar con desplazamiento")
+    print("2. Iniciar Encriptar manualmente")
     print("3. Iniciar Desencriptar")
     print("4. Salir")
 

@@ -47,7 +47,7 @@ class Juego:
                 posicion = self.abecedario.index(letraMayuscula)
                 nuevaPosicion = posicion + int(desplazamiento)
                 if nuevaPosicion >= len(self.abecedario):
-                    nuevaPosicion = 0
+                    nuevaPosicion = nuevaPosicion - len(self.abecedario)
                 letraEncriptada = self.abecedario[nuevaPosicion]
                 print(letraEncriptada, end="")
         print("")
